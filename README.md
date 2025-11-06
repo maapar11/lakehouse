@@ -26,7 +26,7 @@ Mi recomendación para la ejecución completa es ejecutar en una celda el motor:
 `dbutils.notebook.run("./motor_ingesta", timeout_seconds=0)`
 
 Para ejecutar el .whl:\
-`pip install dist/my_ingesta-1.0.0-py3-none-any.whl`
+`pip install dist/ingesta_farmia-0.1.0-py3-none-any.whl`
 
 ## PARTE 1: DISEÑO DE LA ARQUITECTURA DEL DATA LAKEHOUSE
 La arquitectura elegida es la siguiente:
