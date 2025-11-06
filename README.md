@@ -1,7 +1,7 @@
 # TAREA DISEÑO DE INGESTAS Y LAGOS DE DATOS 
 **María Aparicio Castellanos**
 
-##REQUISITOS PREVIOS
+# REQUISITOS PREVIOS
 Primero nos aseguramos de tener:
 - Dos contenedores en ADLS:
     - landing-tarea
@@ -64,12 +64,12 @@ Implementamos el patrón **Medallion**:
 
 **Delta Live Tables** también nos permite definir los pipelines Silver/Gold.
 
-###Serving 
+### Serving 
 Esta capa es la capa de consumo para todos los productos. 
 - **Power BI** y **Tableau** conectan directamente con las capas Gold o Platinum del Lakehouse para visualizar los datos.
 - **MLflow** permite entrenar y gesionar modelos de Machine Learning principalmente con la capa Gold.
 
-##PARTE 2: IMPLEMENTACIÓN DEL MOTOR DE INGESTA
+## PARTE 2: IMPLEMENTACIÓN DEL MOTOR DE INGESTA
 Para la ejecución del motor de ingesta, será suficiente con ejecutar el notebook *motor_ingesta* dentro de la carpeta notebooks. Esto ejecutará tanto la ingesta batch como la ingesta streaming.
 
 Tras la ejecución de los notebooks, los resultados obtenidos los podemos ver en:
